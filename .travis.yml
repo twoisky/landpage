@@ -1,6 +1,7 @@
 deploy:
   provider: pages
   skip_cleanup: true
+  language: javascript
   github_token: $278KzynqWRbPy2rWypMM  # Set in travis-ci.org dashboard
   on:
     branch: master
